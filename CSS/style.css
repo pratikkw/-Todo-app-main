@@ -175,6 +175,10 @@ input {
   border-radius: 50%;
 }
 
+.circle-1 {
+  cursor: none;
+}
+
 .circle--active {
   background-image: url(../images/icon-check.svg),
     linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
