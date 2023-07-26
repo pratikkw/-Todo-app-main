@@ -176,7 +176,7 @@ input {
 }
 
 .circle-1 {
-  cursor: none;
+  cursor: initial;
 }
 
 .circle--active {
@@ -205,6 +205,10 @@ input {
 
 .link-show {
   display: none;
+}
+
+.link--active {
+  color: hsl(220, 98%, 61%);
 }
 
 .todo__category {
