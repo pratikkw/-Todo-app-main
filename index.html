@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- Font Josefin Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="CSS/style.css" />
+
+    <title>Frontend Mentor | Todo app</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="todo">
+        <div class="container">
+          <div class="bk--img"></div>
+          <div class="todo__container grid">
+            <!-- INTRO -->
+            <div class="heading flex">
+              <h1 class="primary-heading">todo</h1>
+              <img src="images/icon-sun.svg" alt="Sun" />
+            </div>
+
+            <!-- TASKs  -->
+            <div class="todo__task grid">
+              <div class="take__task flex common">
+                <span class="circle"></span>
+                <input
+                  type="text"
+                  class="create__todo"
+                  placeholder="Create a new todo..."
+                />
+              </div>
+
+              <div class="tasks">
+                <div class="tasks__container">
+                  <!-- <div class="taken__task flex common">
+                    <span class="circle"></span>
+                    <input
+                      type="text"
+                      value="Complete online JavaScript course"
+                      readonly
+                    />
+                    <img
+                      src="images/icon-cross.svg"
+                      class="todo__icon"
+                      alt="Cross"
+                    />
+                  </div> -->
+                </div>
+
+                <div class="left__task flex common">
+                  <p class="para">
+                    <span class="total__task">0</span> items left
+                  </p>
+
+                  <nav class="todo__category flex link-show">
+                    <a href="#" class="link">All</a>
+                    <a href="#" class="link">Active</a>
+                    <a href="#" class="link">Completed</a>
+                  </nav>
+
+                  <p class="para">Clear Completed</p>
+                </div>
+              </div>
+
+              <nav class="todo__category flex common link-hide">
+                <a href="#" class="link">All</a>
+                <a href="#" class="link">Active</a>
+                <a href="#" class="link">Completed</a>
+              </nav>
+            </div>
+
+            <!-- DRAG & DROP -->
+            <p class="para drag">Drag and drop to reorder list</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+
+  <script defer src="JS/script.js"></script>
+</html>
