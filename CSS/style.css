@@ -168,6 +168,7 @@ input {
 }
 
 .circle {
+  cursor: pointer;
   width: 1.25rem;
   aspect-ratio: 1/1;
   border: 1px solid hsl(0, 0%, 100%);
@@ -188,6 +189,7 @@ input {
 }
 
 .todo__icon {
+  cursor: pointer;
   margin-left: auto;
   width: 1rem;
 }
